@@ -40,6 +40,8 @@ nav ul li{
     border-right: 1px solid grey;
 }
 
+nav a{color: black;}
+
 main img{
     width: 200px;
     height: 200px;
