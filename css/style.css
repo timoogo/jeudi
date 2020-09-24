@@ -11,7 +11,6 @@ body{
 header {
     background-color: #8CCAE0;
     text-align: center;
-    padding: 10px;
 }
 
 h1{
@@ -19,19 +18,29 @@ h1{
     padding: 20px;
 }
 
-header ul{
+a{
+    text-decoration: none;
+}
+
+nav {
+    padding: 10px;
+    background-color: #1199C2;
+}
+
+nav ul{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    list-style: none;
 }
 
-header ul li{
+nav ul li{
     padding: 0 30px;
     border-left: 1px solid grey;
     border-right: 1px solid grey;
 }
 
-.container img{
+main img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -50,7 +59,8 @@ footer{
     height: 110px;
     background-color: #454545;
     color: white;
-
+    position: relative;
+    bottom: 0;
     flex-direction: column;
 }
 .txtFooter{
