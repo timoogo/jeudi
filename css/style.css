@@ -1,3 +1,7 @@
+@import 'variables.css';
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +13,7 @@ body{
 }
 
 header {
-    background-color: #8CCAE0;
+    background-color: var(--main-color);
     text-align: center;
     padding: 10px;
 }
@@ -27,8 +31,8 @@ header ul{
 
 header ul li{
     padding: 0 30px;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+    border-left: 1px solid var(--secondary-color);
+    border-right: 1px solid var(--secondary-color);
 }
 
 .container img{
