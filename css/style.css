@@ -8,6 +8,29 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    background-color: #8CCAE0;
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    font-size: 30px;
+    padding: 20px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+header ul li{
+    padding: 0 30px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
 .container img{
     width: 200px;
     height: 200px;
@@ -17,5 +40,6 @@ body{
 [team] {
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
