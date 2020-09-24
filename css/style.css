@@ -49,6 +49,7 @@ main img{
 }
 
 [team] {
+    margin: 50px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -61,7 +62,7 @@ footer{
     height: 110px;
     background-color: #454545;
     color: white;
-    position: relative;
+    position: absolute;
     bottom: 0;
     flex-direction: column;
 }
