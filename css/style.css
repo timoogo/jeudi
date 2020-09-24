@@ -35,7 +35,7 @@ header ul li{
     border-right: 1px solid var(--secondary-color);
 }
 
-.container img{
+main img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
